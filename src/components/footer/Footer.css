@@ -1,0 +1,13 @@
+footer{
+    background-image: url(../../images/footer.png) !important;
+    background-size: cover;
+    height:450px;
+}
+.round{
+    border-radius: 40px 5px;
+}
+.out{
+background:transparent;
+border: none;
+outline: none;
+}

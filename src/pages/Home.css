@@ -1,0 +1,25 @@
+.back{
+    background-image: url(../images/About.png);
+    background-size: cover;
+}
+.img1{
+    background-image: url(../images/safe.png);
+    background-size: cover;
+    height: 400px;
+}
+.img2{
+    background-image: url(../images/Excahnge.png);
+    background-size: cover;
+    height: 400px;
+}
+.backAppphone{
+    background-image: url(../images/App.png);
+    background-size: cover;
+}
+MDBCarouselItem{
+    height: 400px;
+}
+#main-slider-container {
+    width: 100%;
+    height: 305px;
+}

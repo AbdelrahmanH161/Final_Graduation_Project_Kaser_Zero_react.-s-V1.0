@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --primary-color: #217074;
+  --secondary-color: #bd9b07;
+  --background-color: #f6f7f8;
+  --border-color: #692525fa;
+  --first-color: #af995b;
+  --second-color: #692525fa;
+  --head-font-size: 18px;
+  --label-category-font-size: 16px;
+  --input-font-size: 15px;
+  /* border: 1px black solid; */
+}
+
+/*
+  #217074
+  #37745B
+  #8B9D77
+  #E7EAEF
+  #EDC5Ab
+  */
+
+#body {
+  background-color: var(--background-color);
+}
+
+main button {
+  font-size: 23px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  height: 10vh;
+  cursor: pointer;
+  color: white;
+  border: 1px solid;
+  border-color: var(--first-color);
+  /* background: linear-gradient(
+      to right,
+      var(--second-color) 0%,
+      var(--first-color) 100%
+    ); */
+  background-color: var(--second-color);
+}
+
+/*------------------------------------------------------------------------*/
+main {
+  min-height: 300vh;
+  margin: 20vh 3vw;
+  /* margin-top: 150px; */
+  border: 4px solid;
+  border-radius: 14px;
+  padding: 10vh 3vw;
+  border-color: var(--border-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid;
+  border-color: var(--border-color);
+}
+
+p {
+  font-size: var(--head-font-size);
+  font-weight: 500;
+}
+
+main select,
+main input {
+  font-size: var(--input-font-size);
+  padding: 8px 20px;
+  height: 7vh;
+  border: 1px solid;
+  border-color: var(--border-color);
+  font-size: 17px;
+}
+
+main .exchange label {
+  font-size: 18px;
+}
+
+main.exchange input {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+main .colors input {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+main .photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+main .photos .photo {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border: 1px solid;
+  border-color: var(--border-color);
+
+  text-align: center;
+  align-self: center;
+}
+
+main textarea {
+  width: auto;
+  height: 200px;
+  border: 1px solid;
+  border-color: var(--border-color);
+}
+
+main .categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*--------------------------------desgin radio button--------------------*/
+/* The container */
+main .circleButton {
+  width: 170px;
+  font-size: var(--label-category-font-size);
+  font-weight: 500;
+  margin-left: 10px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+main .circleButton input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+main .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: rgb(255, 250, 250);
+  border-radius: 50%;
+  border: 3px dashed;
+  border-color: var(--border-color);
+}
+
+/* On mouse-over, add a grey background color */
+main .circleButton:hover input ~ .checkmark {
+  background-color: var(--border-color);
+}
+
+/* When the radio button is checked, add a blue background */
+main .circleButton input:checked ~ .checkmark {
+  background-color: var(--border-color);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+main .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+main .circleButton input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle)*/
+main .circleButton .checkmark:after {
+  top: 5px;
+  left: 7px;
+  width: 13px;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--background-color);
+}

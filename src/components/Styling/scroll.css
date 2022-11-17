@@ -1,0 +1,17 @@
+.tttt::-webkit-scrollbar {
+   
+    width: 8px;
+    background: transparent;
+    padding: 3px;
+  }
+  .tttt::-webkit-scrollbar-thumb {
+
+    background: #FBB03B; 
+    border-radius: 5px;
+  }
+  /* ng-scrollbar {
+    --scrollbar-size: 4px;
+    --scrollbar-thumb-color: #FBB03B;
+    --scrollbar-thumb-hover-color: #FBB03B;
+    --scrollbar-border-radius: 4px;
+  } */

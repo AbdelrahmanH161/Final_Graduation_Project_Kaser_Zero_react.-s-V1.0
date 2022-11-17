@@ -1,0 +1,25 @@
+:root{
+    --first-color: #692525fa;
+    --second-color: #af995b;
+}
+nav{
+    background-image: url(/assets/img/Untitled-1.svg);
+    background-size: cover;
+    
+}
+@media  (max-width: 1024px)  {
+    nav{
+        background-image: url(/assets/img/Untitled-2.svg);
+    }
+}
+.back{
+    background-image: url(/assets/img/Untitled-about.svg);
+    background-size: cover;
+}
+.last{
+    right: 10px;
+    top: 0;
+}
+.background{
+    background-color: white;
+}

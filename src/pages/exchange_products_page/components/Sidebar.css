@@ -1,0 +1,27 @@
+aside {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 1vw;
+  /* border: 1px solid; */
+  /* border-radius: 5px; */
+  height: 75vh;
+  width: 17vw;
+  margin-right: 20px;
+  padding: 0 0.5vw;
+  background-color: rgba(238, 237, 237, 0.377);
+  box-shadow: 0 5px 5px 20px rgba(238, 237, 237, 0.377);
+}
+
+aside h3 {
+  /* background-color: var(--first-color); */
+  border: 1px solid;
+  /* border-radius: 15%; */
+
+  /* color: white; */
+  /* height: 14vh; */
+  width: 100%;
+  font-size: 18px;
+  padding: 4vh 1vw;
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+
+:root {
+  --first-color: #692525fa;
+  --second-color: #af995b;
+}
+nav {
+  background-image: url(../images/nav.png);
+  background-size: cover;
+}
+
+
+.last {
+  right: 10px;
+  top: 0;
+}
+.background {
+  background-color: white;
+}
+.btn-outline-primary:hover{
+  color: aliceblue !important;
+}
+
+.dataResult{
+  position: absolute; top: 38px;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding-top: 5px;
+  width: 555px;
+  height: 250px;
+  background-color: white;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar{
+  display: none;
+}
+
+.dataItem{
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.dataItem:hover{
+  background-color:  #E9ECEF;
+  cursor: pointer;
+}

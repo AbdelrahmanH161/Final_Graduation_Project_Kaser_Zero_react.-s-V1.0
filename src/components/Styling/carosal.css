@@ -1,0 +1,21 @@
+.slide .sliderdiv{
+    height: 35rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel .slide .sliderimg{
+    width: 50%;
+    max-height: 85%;
+}
+
+.thumbs{
+    display: flex;
+    justify-content: center;
+}
+
+.thumb{
+    height: 105px;
+}

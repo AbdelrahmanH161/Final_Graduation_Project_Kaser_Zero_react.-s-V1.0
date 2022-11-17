@@ -1,0 +1,22 @@
+:root{
+    --first-color: #692525fa;
+    --second-color: #af995b;
+}
+
+.last{
+    right: 10px;
+    top: 0;
+}
+
+
+.card_Products {
+    border-radius: 5px 5px 20px 20px;
+    overflow: hidden;
+}
+
+.img{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    height: 200px;
+}
